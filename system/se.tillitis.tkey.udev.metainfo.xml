@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+  <id>se.tillitis.tkey.udev</id>
+  <metadata_license>BSD-2-Clause</metadata_license>
+  <name>tillitis-tkey-udev</name>
+  <summary>Tillitis TKey udev rule</summary>
+  <description>
+    <p>Tillitis TKey udev rule to allow usage as non-root user.</p>
+  </description>
+  <provides>
+    <modalias>usb:v1207p8887d*</modalias>
+  </provides>
+</component>
